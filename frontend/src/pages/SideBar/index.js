@@ -83,7 +83,7 @@ export default class Barra extends Component{
                         </li>
                     </ul>
                 </div>
-                <main>
+                <main className="content">
                     <div className="sidebar-toggle">
                         <button type="button" id="sidebarCollapse" className="btn text-sidebar bg-turbo-yellow" onClick={ () => this.setState({estado: !this.state.estado})}>
                             <FiAlignLeft />
