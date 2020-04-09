@@ -1,0 +1,32 @@
+.form-cadastro {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #41414d;
+    font-size: 12px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    flex-direction: column;
+}
+
+.form-cadastro a svg {
+    margin-right: 8px;
+}
+
+.form-cadastro a:hover {
+    opacity: 0.8;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+h2 {
+    text-align: center;
+ }
